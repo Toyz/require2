@@ -2,6 +2,6 @@ const req = require("../")({
     return_names: false
 });
 
-const [fs, os, system, net] = req.import("fs", "os", ["sys", "net"]);
+const [os, logger] = req.import("os", "./examples/imports/logger.js");
 
-console.log(os.platform());
+logger(os.platform());

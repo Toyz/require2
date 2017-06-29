@@ -32,7 +32,6 @@ class require2 {
                     this.imports.push(require(name));
                 }
             } else {
-
                 this.import.apply(this, args[idx]);
             }
         }
