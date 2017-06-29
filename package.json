@@ -1,6 +1,6 @@
 {
-  "name": "multi-require",
-  "version": "0.0.1",
+  "name": "ext-require",
+  "version": "0.0.2",
   "description": "A better version of NodeJS require",
   "main": "index.js",
   "scripts": {
