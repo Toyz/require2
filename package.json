@@ -1,7 +1,7 @@
 {
-  "name": "require2",
+  "name": "req2",
   "version": "0.0.1",
-  "description": "A better version of NPM require",
+  "description": "A better version of NodeJS require",
   "main": "index.js",
   "scripts": {
     "test": "node ./examples/test.js"
@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/Toyz/require2#readme",
   "dependencies": {
-    "extend": "^3.0.1",
-    "extends": "0.0.4"
+    "extend": "^3.0.1"
   }
 }
