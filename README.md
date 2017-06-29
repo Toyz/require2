@@ -12,7 +12,7 @@ _return_names_: Allows you to return the objects as a array with there names (do
 
 ### Basic Examples
 ```js
-const req = require("../")({
+const req = require("ext-require")({
     return_names: false
 });
 const [os, logger] = req.import("os", "./examples/imports/logger.js");
